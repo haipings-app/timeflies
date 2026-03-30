@@ -1,0 +1,35 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgA" x1="148" y1="120" x2="884" y2="908" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#163057"/>
+      <stop offset="0.5" stop-color="#3D86E6"/>
+      <stop offset="1" stop-color="#F08B3C"/>
+    </linearGradient>
+    <linearGradient id="glassA" x1="330" y1="238" x2="694" y2="786" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#F9FCFF"/>
+      <stop offset="1" stop-color="#FFF0E3"/>
+    </linearGradient>
+    <linearGradient id="sandA" x1="430" y1="338" x2="632" y2="724" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFF3DE"/>
+      <stop offset="1" stop-color="#FFD39A"/>
+    </linearGradient>
+    <filter id="shadowA" x="90" y="90" width="844" height="844" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="28" stdDeviation="30" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadowA)">
+    <rect x="112" y="112" width="800" height="800" rx="184" fill="url(#bgA)"/>
+
+    <path d="M356 236H668" stroke="url(#glassA)" stroke-width="46" stroke-linecap="round"/>
+    <path d="M356 788H668" stroke="url(#glassA)" stroke-width="46" stroke-linecap="round"/>
+
+    <path d="M390 258C390 366 452 408 493 470C503 486 509 497 512 512C515 497 521 486 531 470C572 408 634 366 634 258" stroke="url(#glassA)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M390 766C390 658 452 616 493 554C503 538 509 527 512 512C515 527 521 538 531 554C572 616 634 658 634 766" stroke="url(#glassA)" stroke-width="42" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <path d="M430 328C430 387 468 426 499 471C504 478 508 485 512 493C516 485 520 478 525 471C556 426 594 387 594 328H430Z" fill="url(#sandA)" fill-opacity="0.94"/>
+    <path d="M452 700C477 679 497 649 507 602L512 570L517 602C527 649 547 679 572 700C542 715 505 721 452 700Z" fill="url(#sandA)" fill-opacity="0.98"/>
+    <rect x="502" y="478" width="20" height="92" rx="10" fill="url(#sandA)"/>
+    <circle cx="512" cy="585" r="18" fill="#FFE4B7"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="tlMark" x1="48" y1="44" x2="284" y2="306" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1D3768"/>
+      <stop offset="0.55" stop-color="#3F8DE8"/>
+      <stop offset="1" stop-color="#F08B3E"/>
+    </linearGradient>
+    <linearGradient id="tlGlow" x1="56" y1="56" x2="276" y2="296" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#E9F3FF"/>
+      <stop offset="1" stop-color="#FFF0E2"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="340" height="340" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="24" y="24" width="288" height="288" rx="72" fill="url(#tlMark)"/>
+    <path d="M168 80C119.399 80 80 119.399 80 168C80 216.601 119.399 256 168 256C216.601 256 256 216.601 256 168" stroke="url(#tlGlow)" stroke-width="24" stroke-linecap="round"/>
+    <circle cx="168" cy="168" r="18" fill="white"/>
+    <path d="M168 111V168L213 141" stroke="white" stroke-width="22" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M215 227C201.6 238.867 185.467 244.8 166.6 244.8C147.867 244.8 131.667 238.867 118 227" stroke="white" stroke-opacity="0.9" stroke-width="10" stroke-linecap="round"/>
+  </g>
+
+  <g>
+    <text x="360" y="160" fill="#10203A" font-family="Avenir Next, SF Pro Display, Helvetica, Arial, sans-serif" font-size="112" font-weight="700" letter-spacing="-3">
+      Time Left
+    </text>
+    <text x="366" y="224" fill="#58708F" font-family="Avenir Next, SF Pro Text, Helvetica, Arial, sans-serif" font-size="34" font-weight="500" letter-spacing="1.8">
+      FEEL THE COUNTDOWN
+    </text>
+    <rect x="366" y="248" width="232" height="10" rx="5" fill="#D9E7F8"/>
+    <rect x="366" y="248" width="164" height="10" rx="5" fill="#3F8DE8"/>
+    <circle cx="538" cy="253" r="14" fill="#F08B3E"/>
+  </g>
+</svg>

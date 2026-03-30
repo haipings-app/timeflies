@@ -1,0 +1,24 @@
+<svg width="1024" height="1024" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="appBg" x1="128" y1="96" x2="900" y2="928" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#182B55"/>
+      <stop offset="0.48" stop-color="#3D85E5"/>
+      <stop offset="1" stop-color="#F08A3A"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="238" y1="204" x2="786" y2="812" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#EDF6FF"/>
+      <stop offset="1" stop-color="#FFF1E3"/>
+    </linearGradient>
+    <filter id="iconShadow" x="70" y="70" width="884" height="884" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="34" stdDeviation="34" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#iconShadow)">
+    <rect x="112" y="112" width="800" height="800" rx="196" fill="url(#appBg)"/>
+    <path d="M512 250C367.309 250 250 367.309 250 512C250 656.691 367.309 774 512 774C656.691 774 774 656.691 774 512" stroke="url(#ring)" stroke-width="72" stroke-linecap="round"/>
+    <circle cx="512" cy="512" r="52" fill="white"/>
+    <path d="M512 340V512L644 430" stroke="white" stroke-width="64" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M648 690C607.2 726.133 560.533 744.2 508 744.2C455.6 744.2 408.867 726.133 368 690" stroke="white" stroke-opacity="0.92" stroke-width="28" stroke-linecap="round"/>
+  </g>
+</svg>
